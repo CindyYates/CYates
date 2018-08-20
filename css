@@ -1,0 +1,113 @@
+body {
+	background-color: white;
+	background-image: url(images/CY_logo_cobalt_webheader2.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+.vid {
+	z-index: 50;
+	position: relative;
+	margin: auto;
+	width: 150px;
+}
+.item  {
+	display: grid;
+	grid-template-columns: 230px 230px 230px;
+	grid-template-rows: auto;
+	column-gap: 10px;
+	row-gap: 10px;
+	top: 150px;
+	left: 150px;
+	position: relative;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	border-radius: 21px 19px 8px 4px;
+	border-collapse: collapse;
+	float: left;
+}
+
+
+nav {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	margin-top: 7px;
+	margin-right: 7px;
+	margin-bottom: 7px;
+	margin-left: 7px;
+	float: left;
+	text-align: left;
+	color: #FFFFFF;
+}
+.box {
+	grid-template-rows: auto;
+	/* [disabled]border-bottom: thin inset #AAAAAA; */
+	border-collapse: collapse;
+	align-items: start;
+	position: relative;
+	width: 200px;
+	
+}
+
+p {
+	margin-left: 0px;
+	color: #1F1661;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: small;
+	text-align: left;
+	vertical-align: middle;
+	margin-top: 4px;
+	z-index: 98;
+	display: inline-block;
+	margin-bottom: 8px;
+}
+a {
+	text-decoration: none;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-style: italic;
+	text-align: center;
+	font-size: small;
+	color: #00008B;
+}
+
+
+a:link {
+	
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: italic;
+	text-align: center;
+}
+
+a:visited {
+	color: #5312E4;
+}
+
+a:focus {
+	background-color: #B6CDEA;
+}
+
+a:hover {
+	background-color: #97BAF9;
+}
+
+a:active {
+	background-color: #B6B6D0;
+}
+header {
+	position: fixed;
+	padding: 2em;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* [disabled]background:rgba(0,0,0,0.2); */
+	height: 100px;
+}
+footer {
+	background-color: #AFAFB4;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	clear: both;
+}
